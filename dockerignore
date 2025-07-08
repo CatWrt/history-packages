@@ -1,6 +1,4 @@
-*.md
 .git
 .github
 docker-compose.yml
-Dockerfile
 COPYING
