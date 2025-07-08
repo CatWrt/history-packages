@@ -16,7 +16,6 @@
 
 <!---  [![](https://img.shields.io/badge/blog-@CatWrt.svg)](https://www.miaoer.net/network/catwrt)  --->
 
-[![](https://img.shields.io/github/v/release/CatWrt/history-packages)](https://github.com/CatWrt/history-packages/releases)
 [![](https://img.shields.io/docker/stars/miaoer/catwrt-history-repo)](https://hub.docker.com/r/miaoer/catwrt-history-repo)
 [![](https://img.shields.io/docker/image-size/miaoer/catwrt-history-repo)](https://hub.docker.com/r/miaoer/catwrt-history-repo)
 
