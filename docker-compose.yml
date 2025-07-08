@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: catwrt-history-repo
+    image: miaoer/catwrt-history-repo:latest
+    # debug
+    build: .
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - "1481:80"
+    networks:
+      - CatWrt-network
+    restart: always
+networks:
+ CatWrt-network:
+    driver: bridge
